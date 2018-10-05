@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "BinauralDecoder_x64",
+	"origin" : "BinauralDecoder_x64.dll",
+	"type" : "VST",
+	"subtype" : "AudioEffect",
+	"embed" : 1,
+	"snapshot" : 	{
+		"pluginname" : "BinauralDecoder_x64.dll",
+		"plugindisplayname" : "BinauralDecoder_x64",
+		"pluginsavedname" : "D:/DAW/vst plugs/IEM/BinauralDecoder_x64.dll",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "292.CMlaKA....fQPMDZ....AHTZDUF..P......A..........................................5VMjLg7M....OBklagUmbgwFQkM1ajUlbf7zTCA0axQWOhzRLh3COPEjTA0DHoQVOhjlavUGcOIGYkI2TkQGco41Yh.hcgwVck0iHz3BLv.CLv.CLv.CLv.CLv.CLv.CLvHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKv.CLv.CLv.CLv.CLv.CLv.CLv.iHu3COPEjTA0DHoQVOhDFbvwVdHUVXjAGZu4VYEEmHfXWXrUWY8HBLt.CLv.CLv.CLv.CLv.CLv.CLv.CLh7hO77hPo4VX0IWXrQTYi8FYkImO.."
+	}
+
+}
