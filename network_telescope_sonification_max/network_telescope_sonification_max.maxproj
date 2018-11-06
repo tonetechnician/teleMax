@@ -2,8 +2,8 @@
 	"name" : "network_telescope_sonification_max",
 	"version" : 1,
 	"creationdate" : 3621591853,
-	"modificationdate" : 3621592059,
-	"viewrect" : [ 592.0, 207.0, 375.0, 634.0 ],
+	"modificationdate" : 3624367073,
+	"viewrect" : [ 363.0, 76.0, 378.0, 399.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -22,26 +22,30 @@
 ,
 			"csv_reader.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Max/Projects/net_telescope/net_telescope/patchers",
+					"projectrelativepath" : "../../../Max/Projects/net_telescope/net_telescope/patchers"
+				}
+
 			}
 ,
-			"main-final.maxpat" : 			{
+			"main.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 
 		}
 ,
 		"data" : 		{
+			"MultiEncoder_x64_20181001_1.maxsnap" : 			{
+				"kind" : "maxsnapshot",
+				"local" : 1
+			}
+,
 			"BinauralDecoder_x64_20181001.maxsnap" : 			{
 				"kind" : "maxsnapshot",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "D:/Max/Projects/net_telescope/net_telescope/data",
-					"projectrelativepath" : "../../../Max/Projects/net_telescope/net_telescope/data"
-				}
-
+				"local" : 1
 			}
 ,
 			"MultiEncoder_x64_20181004.maxsnap" : 			{
@@ -56,35 +60,40 @@
 ,
 			"BinauralDecoder_x64.maxsnap" : 			{
 				"kind" : "maxsnapshot",
-				"local" : 1
-			}
-,
-			"EnergyVisualizer_x64.maxsnap" : 			{
-				"kind" : "maxsnapshot",
-				"local" : 1
-			}
-,
-			"FdnReverb_x64.maxsnap" : 			{
-				"kind" : "maxsnapshot",
-				"local" : 1
-			}
-,
-			"MultiEncoder_x64.maxsnap" : 			{
-				"kind" : "maxsnapshot",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/git-repos/max-telescope-patch/net_telescope/data",
-					"projectrelativepath" : "../net_telescope/data"
+					"bootpath" : "D:/Max/Projects/net_telescope/net_telescope/data",
+					"projectrelativepath" : "../../../Max/Projects/net_telescope/net_telescope/data"
 				}
 
 			}
 ,
-			"MultiEncoder_x64_20181001.maxsnap" : 			{
+			"EnergyVisualizer_x64.maxsnap" : 			{
+				"kind" : "maxsnapshot",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Max/Projects/net_telescope/net_telescope/data",
+					"projectrelativepath" : "../../../Max/Projects/net_telescope/net_telescope/data"
+				}
+
+			}
+,
+			"FdnReverb_x64.maxsnap" : 			{
+				"kind" : "maxsnapshot",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Max/Projects/net_telescope/net_telescope/data",
+					"projectrelativepath" : "../../../Max/Projects/net_telescope/net_telescope/data"
+				}
+
+			}
+,
+			"MultiEncoder_x64.maxsnap" : 			{
 				"kind" : "maxsnapshot",
 				"local" : 1
 			}
 ,
-			"MultiEncoder_x64_20181001_1.maxsnap" : 			{
+			"MultiEncoder_x64_20181001.maxsnap" : 			{
 				"kind" : "maxsnapshot",
 				"local" : 1
 			}
