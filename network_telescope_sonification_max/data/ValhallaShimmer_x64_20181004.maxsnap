@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "ValhallaShimmer_x64",
+	"origin" : "ValhallaShimmer_x64.dll",
+	"type" : "VST",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "ValhallaShimmer_x64.dll",
+		"plugindisplayname" : "ValhallaShimmer_x64",
+		"pluginsavedname" : "D:/DAW/vst plugs/ValhallaDSP x64/ValhallaShimmer_x64.dll",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "410.CMlaKA....fQPMDZ....ALGZsIG.A.v.....HHDagM1ZH8FakA...........................DfWVMjLgTU....OMkETLU0QI4zTEQEUI4zQSABbrU2Yo4lUkI2bo8la8HRLh.xX0Imbk4FcPI2amIWXs0iHvHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHwHBHvElbg0VYzUlbxziHvHBHvElbg0VYzUlbyziHv3RNwjSL4DSN0XSMx.CL3.SM2HBHvElbg0VYzUlbzziHv3RMh.BbgIWXsUFckIWM8HBLh.BbgIWXsUFckImM8HBLtTyLvHCLwLSL0fyM4fiLwbCNh.BbgIWXsUFckI2M8HBLtDCLv.CLv.CLwPSNvDSL1DiLh.BbgIWXsUFckIGN8HBLtLCLv.CLv.SLwjiLvjiL3jiMh.BbgIWXsUFckIWN8HBLh.BbgIWXsUFckIWLvziHvHBHvElbg0VYzUlbwDSOh.iHfTWZWkFYzgVOhXSNzHBH0kFRkk1YnQWOhHyM0HxK9.."
+	}
+
+}
