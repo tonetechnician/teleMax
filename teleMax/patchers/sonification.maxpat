@@ -38,6 +38,123 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 999.200012, 923.200073, 85.199997, 20.0 ],
+					"style" : "",
+					"text" : "effect router"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 442.399994, 45.600006, 58.799999, 34.0 ],
+					"style" : "",
+					"text" : "transport control"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"knobshape" : 4,
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 520.400024, 52.600006, 140.0, 20.0 ],
+					"prototypename" : "triangle horizontal",
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 520.400024, 81.199989, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 520.400024, 111.599991, 83.0, 22.0 ],
+					"style" : "",
+					"text" : "set /tempo $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 520.400024, 141.199997, 66.900002, 22.0 ],
+					"style" : "",
+					"text" : "/tempo 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 636.299988, 141.199997, 47.0, 22.0 ],
+					"style" : "",
+					"text" : "/pause"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 595.500061, 141.199997, 36.0, 22.0 ],
+					"style" : "",
+					"text" : "/play"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 520.400024, 175.200027, 133.0, 22.0 ],
+					"style" : "",
+					"text" : "udpsend 10.0.0.7 7400"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
@@ -108,9 +225,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 577.599976, 89.599998, 156.0, 20.0 ],
+					"patching_rect" : [ 819.199951, 147.199997, 87.199997, 20.0 ],
 					"style" : "",
-					"text" : "port mapping experiment"
+					"text" : "port mapping?"
 				}
 
 			}
@@ -196,7 +313,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 629.133179, 886.399963, 65.0, 22.0 ],
+					"patching_rect" : [ 918.650024, 923.200073, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "r gate_trig"
 				}
@@ -272,7 +389,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 697.599976, 116.800034, 50.0, 22.0 ],
+					"patching_rect" : [ 823.199951, 175.200027, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -284,7 +401,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 863.399963, 220.0, 34.0, 22.0 ],
+					"patching_rect" : [ 988.999939, 278.399994, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "+ 80"
 				}
@@ -297,7 +414,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 697.599976, 153.599991, 194.0, 22.0 ],
+					"patching_rect" : [ 823.199951, 211.999985, 194.0, 22.0 ],
 					"style" : "",
 					"text" : "if $i1 > 5060 then $i1 else out2 $i1"
 				}
@@ -310,7 +427,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 701.399963, 183.999954, 237.0, 22.0 ],
+					"patching_rect" : [ 826.999939, 242.399948, 237.0, 22.0 ],
 					"style" : "",
 					"text" : "scale 5000 65850 5000 15000 1. @classic"
 				}
@@ -1244,7 +1361,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.199997, 107.199951, 74.0, 22.0 ],
+					"patching_rect" : [ 194.599991, 179.199951, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "/lon 4.8995"
 				}
@@ -2304,7 +2421,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 12,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 629.133179, 920.399902, 106.76667, 22.0 ],
+					"patching_rect" : [ 918.650024, 955.600037, 239.5, 22.0 ],
 					"style" : "",
 					"text" : "gate~ 12"
 				}
@@ -2588,7 +2705,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.699985, 76.399956, 72.400002, 20.0 ],
+					"patching_rect" : [ 4.199986, 179.199951, 72.400002, 20.0 ],
 					"style" : "",
 					"text" : "recieve osc"
 				}
@@ -2614,7 +2731,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.099987, 107.199951, 99.0, 22.0 ],
+					"patching_rect" : [ 88.499985, 179.199951, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "udpreceive 7400"
 				}
@@ -2637,7 +2754,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 71.599987, 195.0, 87.0, 195.0, 87.0, 240.0, 13.699986, 240.0 ],
+					"midpoints" : [ 97.999985, 195.0, 87.0, 195.0, 87.0, 240.0, 13.699986, 240.0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -2646,7 +2763,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 71.599987, 140.333282, 252.799999, 140.333282, 252.799999, 101.333282, 232.699997, 101.333282 ],
+					"midpoints" : [ 97.999985, 212.333274, 279.200001, 212.333274, 279.200001, 173.333274, 259.099991, 173.333274 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -2668,8 +2785,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 1 ],
-					"midpoints" : [ 627.166687, 873.0, 726.399849, 873.0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-112", 0 ]
 				}
 
@@ -2704,8 +2820,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 1 ],
-					"midpoints" : [ 1023.900024, 906.0, 726.399849, 906.0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-134", 0 ]
 				}
 
@@ -2911,6 +3026,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-127", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
@@ -2921,6 +3043,13 @@
 					"destination" : [ "obj-2", 0 ],
 					"midpoints" : [ 405.700012, 998.0, 615.799896, 998.0, 615.799896, 989.0, 638.633179, 989.0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -2941,6 +3070,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-29", 1 ]
 				}
@@ -2950,6 +3086,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -2987,6 +3130,13 @@
 					"destination" : [ "obj-123", 2 ],
 					"order" : 1,
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -3105,65 +3255,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 726.399849, 947.499969, 638.633179, 947.499969 ],
-					"source" : [ "obj-71", 11 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 718.421061, 947.499969, 638.633179, 947.499969 ],
-					"source" : [ "obj-71", 10 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 710.442273, 947.499969, 638.633179, 947.499969 ],
-					"source" : [ "obj-71", 9 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 702.463484, 947.499969, 638.633179, 947.499969 ],
-					"source" : [ "obj-71", 8 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 694.484696, 947.499969, 638.633179, 947.499969 ],
-					"source" : [ "obj-71", 7 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 686.505908, 947.499969, 638.633179, 947.499969 ],
-					"source" : [ "obj-71", 6 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 670.548332, 947.499969, 638.633179, 947.499969 ],
-					"source" : [ "obj-71", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 638.633179, 947.499969, 638.633179, 947.499969 ],
-					"source" : [ "obj-71", 0 ]
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -3277,8 +3370,8 @@
 			}
 , 			{
 				"name" : "basic_grain.maxpat",
-				"bootpath" : "D:/git-repos/teleMax/teleMax/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "D:/Downloads/teleMax-master/net_telescope/patchers",
+				"patcherrelativepath" : "../../../../Downloads/teleMax-master/net_telescope/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
