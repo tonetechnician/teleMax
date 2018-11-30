@@ -6,10 +6,10 @@ Find Ambisonic plugins [here](https://plugins.iem.at/)
 # Telescope To Do list
 - Controller (Max components are added. Adding to telePhonics next)
 - Generating traffic 
-- Parameter highlighting with FX and chords
+- Parameter highlighting with FX and chords --> Have done noise highlighting and fx highlighting
 - Different port -> frequency scalings
 - Day/Night filter
-- Visualisation
+- Visualisation --> Done in teleVision
 - Move to OSC bundles to decrease network traffic
 
 ## What we've found already
