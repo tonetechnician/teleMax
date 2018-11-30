@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "EnergyVisualizer_x64",
+	"origin" : "EnergyVisualizer_x64.dll",
+	"type" : "VST",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "EnergyVisualizer_x64.dll",
+		"plugindisplayname" : "EnergyVisualizer_x64",
+		"pluginsavedname" : "D:/DAW/vst plugs/IEM/EnergyVisualizer_x64.dll",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "284.CMlaKA....fQPMDZ....ATjaVkF..b......A..........................................3VMjLgbM....OE4VYxcVdVk1b0EFaooWYxAxSSMDTuIGc8HRKwHhO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBMt.CLv.CLv.CLv.CLv.CLv.CLv.CLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLv.CLv.CLv.CLv.CLv.CLv.CLvHxK9vCTAIUPMARZj0iHvUVXqwTY1UFah.hcgwVck0iHsDiMtbCLv.CLvbiMxjyL4PSMyDiL0.CLh7hO77RQtUlbmkmUoMWcgwVZ5Ulb9.."
+	}
+
+}
